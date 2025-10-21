@@ -1,4 +1,4 @@
-# deepseek_proxy
+# DeepSeek4XCode
 
 这是一个轻量级代理，用于处理本地的 Deepseek API 请求并转发到官方 API。  
 最初设计目的是为了解决 Xcode 接入 Deepseek 的问题，  
