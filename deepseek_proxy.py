@@ -1,7 +1,15 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+#
+# deepseek_proxy.py
+# Copyright (c) 2025 Mox ZaZa
+# Licensed under CC BY-NC-SA 4.0
+# https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# You may share and adapt this code for non-commercial purposes,
+# provided you give appropriate credit and distribute any derivatives
+# under the same license.
 """
-deepseek_proxy.py
-
 轻量本地转发器：
 - 接受本机 HTTP 请求（默认 127.0.0.1:8080）
 - 删除空 "tools": []（请求与响应）
@@ -9,7 +17,7 @@ deepseek_proxy.py
 - 转发到 https://api.deepseek.com/... 并把响应返回给客户端
 
 环境配置：
-    pip install flask requests
+  1. pip install flask requests
 
 使用：
   1. 将 DEEPSEEK_KEY = "YOUR_DEEPSEEK_KEY_HERE" 替换为你自己的 DEEPSEEK_API_KEY
